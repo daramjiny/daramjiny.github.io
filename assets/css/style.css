@@ -744,7 +744,7 @@ p {
 #portfolio .portfolio-item .portfolio-info .preview-link,
 #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 40px;
+  right: 10px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #b8a07e;
@@ -771,13 +771,18 @@ p {
   padding-top: 40px;
 }
 
+.portfolio-details .portfolio-details-slider {
+  text-align: center;
+}
+
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  max-width: 100%;    
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
+      
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
@@ -785,7 +790,7 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #b8a07e;  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
